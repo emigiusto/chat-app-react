@@ -54,7 +54,6 @@ function Chat({location}) {
         }
     }
 
-    console.log(message,messages)
     //function for sending messages
 
     return (
@@ -65,7 +64,7 @@ function Chat({location}) {
                 <Input  message={message} 
                         setMessage={setMessage} 
                         sendMessage={sendMessage}/>
-            
+                {/*<TextContainer users={users}/>*/}
             </div>
         </div>
     );
